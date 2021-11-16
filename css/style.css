@@ -116,6 +116,7 @@ p {
   font-size: 2.625rem;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
   color: #db9600;
   background: #fff;
 }
@@ -413,7 +414,13 @@ p {
 @media (max-width: 800px) {
   .review-section h2 {
     font-size: 3rem;
-    top: 64px;
+    top: 48px;
+  }
+}
+@media (max-width: 468px) {
+  .review-section h2 {
+    font-size: 2.5rem;
+    top: 58px;
   }
 }
 
